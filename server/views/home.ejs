@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+
+  <title></title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h4 style="text-align: center; font-size: 32pt;font-style: normal;">Sản phẩm mới</h4><br>
+    <div id="productnew" style="display: flex; flex-wrap: wrap;">
+      <script>
+        fetch("http://localhost:4021/product/allproduct")
+          .then(res => res.json())
+          .then(data => {
+            console.log(data);
+            let product = document.getElementById("product");
+            data.forEach(product => {
+              product.innerHTML += `
+            `;
+            });
+          })
+      </script>
+
+    </div>
+  </div>
+  <div class="container">
+    <h4 style="text-align: center; font-size: 32pt;font-style: normal;">Sản phẩm mới</h4><br>
+    <div id="productnew" style="display: flex; flex-wrap: wrap;">
+      <script>
+        fetch("http://localhost:4021/product/productnew")
+          .then(res => res.json())
+          .then(data => {
+            console.log(data);
+            let productnew = document.getElementById("productnew");
+            data.forEach(product => {
+              productnew.innerHTML += `
+            `;
+            });
+          })
+      </script>
+
+    </div>
+  </div>
+  <hr>
+  <div class="container">
+    <h4 style="text-align: center; font-size: 32pt;font-style: normal;">Sản phẩm mới</h4><br>
+    <div id="productnew" style="display: flex; flex-wrap: wrap;">
+      <script>
+        fetch("http://localhost:4021/product/productmen")
+          .then(res => res.json())
+          .then(data => {
+            console.log(data);
+            let productmen = document.getElementById("productmen");
+            data.forEach(product => {
+              productmen.innerHTML += `
+        `;
+            });
+          })
+      </script>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <h4 style="text-align: center; font-size: 32pt;font-style: normal;">Sản phẩm mới</h4><br>
+    <div id="productnew" style="display: flex; flex-wrap: wrap;">
+      <script>
+        fetch("http://localhost:4021/product/producthot")
+          .then(res => res.json())
+          .then(data => {
+            console.log(data);
+            let productmen = document.getElementById("producthot");
+            data.forEach(product => {
+              productmen.innerHTML += `
+        `;
+            });
+          })
+      </script>
+
+    </div>
+  </div>
+  <div class="container">
+    <h4 style="text-align: center; font-size: 32pt;font-style: normal;">Phụ kiện</h4><br>
+    <div id="productnew" style="display: flex; flex-wrap: wrap;">
+      <script>
+        fetch("http://localhost:4021/product/phukien")
+          .then(res => res.json())
+          .then(data => {
+            console.log(data);
+            let productmen = document.getElementById("phukien");
+            data.forEach(product => {
+              productmen.innerHTML += `
+        `;
+            });
+          })
+      </script>
+
+    </div>
+  </div>
+  <div class="container">
+    <h4 style="text-align: center; font-size: 32pt;font-style: normal;">aopolo</h4><br>
+    <div id="productnew" style="display: flex; flex-wrap: wrap;">
+      <script>
+        fetch("http://localhost:4021/product/aopolo")
+          .then(res => res.json())
+          .then(data => {
+            console.log(data);
+            let productmen = document.getElementById("aopolo");
+            data.forEach(product => {
+              productmen.innerHTML += `
+        `;
+            });
+          })
+      </script>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <h4 style="text-align: center; font-size: 32pt;font-style: normal;">aothun</h4><br>
+    <div id="productnew" style="display: flex; flex-wrap: wrap;">
+      <script>
+        fetch("http://localhost:4021/product/aothun")
+          .then(res => res.json())
+          .then(data => {
+            console.log(data);
+            let productmen = document.getElementById("aothun");
+            data.forEach(product => {
+              productmen.innerHTML += `
+        `;
+            });
+          })
+      </script>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <h4 style="text-align: center; font-size: 32pt;font-style: normal;">ao somi</h4><br>
+    <div id="productnew" style="display: flex; flex-wrap: wrap;">
+      <script>
+        fetch("http://localhost:4021/product/aosomi")
+          .then(res => res.json())
+          .then(data => {
+            console.log(data);
+            let productmen = document.getElementById("aosomi");
+            data.forEach(product => {
+              productmen.innerHTML += `
+        `;
+            });
+          })
+      </script>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <h4 style="text-align: center; font-size: 32pt;font-style: normal;">phụ kiên 1</h4><br>
+    <div id="productnew" style="display: flex; flex-wrap: wrap;">
+      <script>
+        fetch("http://localhost:4021/product/phukien1")
+          .then(res => res.json())
+          .then(data => {
+            console.log(data);
+            let productmen = document.getElementById("phukien1");
+            data.forEach(product => {
+              productmen.innerHTML += `
+        `;
+            });
+          })
+      </script>
+
+    </div>
+  </div>

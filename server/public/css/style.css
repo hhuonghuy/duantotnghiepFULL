@@ -1,0 +1,28 @@
+
+header.row{ height:350px;}
+nav.row{height:60px;}
+main.row{min-height:500px;}
+footer.row{height:90px;}
+       
+.box{
+          
+    height: 500px;
+    width: 70%;
+    margin: 0 auto;
+}
+.box_left{
+    width: 40%;
+    float: left;
+}
+.box_left img{
+    margin: 20px 0px 0px 20px;
+   width: 80%;
+    height: 450px;
+}
+.box_right{
+    margin-top: 20px;
+    font-size: 20px;
+    width: 60%;
+    float: left;
+    
+}
